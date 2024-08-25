@@ -1,0 +1,17 @@
+.landing-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.landing-screen-content {
+  text-align: center;
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .landing-screen-content {
+    padding: 0 20px; /* Adjust spacing for smaller screens */
+  }
+}

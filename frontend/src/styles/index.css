@@ -1,0 +1,25 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* body {
+  background-image: linear-gradient(to right, #7f9cf5, #a47ee8, #f687b3);
+} */
+
+.landing-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.landing-screen-content {
+  text-align: center;
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 768px) {
+  .landing-screen-content {
+    padding: 0 20px; /* Adjust spacing for smaller screens */
+  }
+}
